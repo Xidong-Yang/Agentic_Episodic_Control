@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Large model weights (download separately, see README)
+*.bin
+*.safetensors
+*.h5
+*.ot
+LLM_models/
+
+# Keep small SentencePiece models
+!*.model
+
+# Experiment outputs
+storage/
+models/
+*.log
+
+# Environment
+.env
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
